@@ -1,0 +1,46 @@
+.footer{
+    background: $theme-cyan;
+    &__row{
+        padding: 60px 0 30px 0;
+    }
+    &__column{
+        width: 24%;
+        margin-bottom: 40px;
+    }
+    &__column-title{
+        font-size: 21px;
+        font-weight: 500;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+    &__column-list{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    &__column-item{
+        padding: 10px 0;
+    }
+    &__column-link{
+        color: #E0E0E0;
+        text-decoration: none;
+        line-height: 1.4;
+        font-size: 14px;
+    }
+    &__column-link:hover{
+        color: #FFC41E;
+        border-bottom: 1px solid #FFC41E;
+    }
+    &__column-social-link{
+        display: inline-block;
+        margin-right: 30px;
+    }
+    &__column-app-link{
+        display: block;
+        margin: 15px 0 0;
+    }
+    &__column-social-icons{
+        padding: 21px 0;
+    }
+}
+

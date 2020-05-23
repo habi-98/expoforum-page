@@ -1,0 +1,67 @@
+.boxes-wrap {
+    display: flex;
+}
+.promo-info{
+        width: 48%;
+        padding-right: 20px; 
+        padding-top: 184px;
+    &__title {
+        font-size: 64px;
+        font-weight: bold;
+        line-height: 1.6;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &__text {
+        font-size: 24px;
+        padding-right: 80px;
+        line-height: 1.4;
+
+    }
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 304px;
+    padding-left: 10px;
+    width: 52%;
+    &__column{
+        width: 47%;
+        margin-bottom: 30px;
+        padding: 20px 5px 20px 17px;
+        &--blue{
+            background: $theme-blue;
+        }
+        &--cyan{
+            background: $theme-cyan;
+        }
+        &--orange{
+            background: $theme-vivid-orange;
+        }
+        &--red{
+            background: $theme-bright-red;
+        }
+    }
+
+}
+.item {
+    padding: 0 36px 0 20px;
+    &__title{
+        font-size: 21px;
+        font-weight: 500;
+        margin: 15px 0;
+    }
+}
+.link-info{
+        display: inline-block;
+        padding-right: 32px;
+        background: url(../icons/Arrow.png) 97% 50% no-repeat;
+        color: $text-color-white;
+        text-decoration: none;
+        &--size{
+            font-size: 16px;
+            line-height: 1.3;
+        }
+}
